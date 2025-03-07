@@ -32,7 +32,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
+            className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4 z-10"
           >
             HEY, I AM <br />
             <span className="text-purple-500">SEIF MOSTAFA</span>
