@@ -24,7 +24,7 @@ const Hero = () => {
             sequence={["Front-End Dev", 1000, "React", 1000, "Junior", 1000]}
             speed={50}
             repeat={Infinity}
-            className="font-bold text-gray-400 text-xl md:text-5xl italic- mb-4"
+            className="font-bold text-gray-400 text-4xl md:text-5xl italic- mb-4"
           />
 
           <motion.p
@@ -32,7 +32,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
+            className="text-gray-200 text-5xl md:text-7xl tracking-tight mb-4"
           >
             HEY, I AM <br />
             <span className="text-purple-500">SEIF MOSTAFA</span>
@@ -43,7 +43,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 1 }}
-            className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
+            className="text-gray-300 max-w-[300px] md:max-w-[500px] text-2xl mb-6"
           >
             I am a passionate frontend developer with junior experience in
             development.
