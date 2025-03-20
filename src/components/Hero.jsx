@@ -5,9 +5,10 @@ import {
   AiOutlineGithub,
   AiOutlineInstagram,
   AiOutlineLinkedin,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiTypescript } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -61,10 +62,15 @@ const Hero = () => {
                 scale: 1.05,
                 boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)",
               }}
-              onClick={() => window.open("https://mail.google.com/mail/?view=cm&fs=1&to=seifmostafaa01@gmail.com&su=Hello&body=I want to contact you!", "_blank")}
-              className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
-                                     border-purple-400 rounded-xl"
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=seifmostafaa01@gmail.com&su=Hello&body=I want to contact you!",
+                  "_blank"
+                )
+              }
+              className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-purple-400 rounded-xl flex items-center gap-2"
             >
+              <AiOutlineMail size={20} />
               Contact Me
             </motion.button>
 
@@ -110,6 +116,7 @@ const Hero = () => {
           <DiHtml5 className="text-orange-600 mx-2" />
           <DiCss3 className="text-blue-600 mx-2" />
           <DiJavascript1 className="text-yellow-500 mx-2" />
+          <SiTypescript size={58} className="text-blue-600 mx-2" />
           <DiReact className="text-blue-500 mx-2" />
           <SiTailwindcss className="text-blue-400 mx-2" />
         </div>

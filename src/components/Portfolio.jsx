@@ -3,6 +3,7 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
 import { AiFillGithub, AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 
@@ -31,7 +32,7 @@ const projects = [
     img: project3,
     title: "Admin-Dashboard",
     description:
-      "A responsive Admin Dashboard built with React, featuring Light and Dark Mode for a personalized experience. It includes interactive components like charts and tables.",
+      "A responsive Admin Dashboard built with React, featuring Light and Dark Mode. It includes interactive components like charts and tables.",
     links: {
       site: "https://admin-dashboard-ivory-pi-78.vercel.app/",
       github: "https://github.com/seifmostafa78/React-Admin-Dashboard",
@@ -39,19 +40,29 @@ const projects = [
   },
   {
     img: project4,
+    title: "E-Commerce",
+    description:
+      "React E-Commerce with Advanced Filtering allows users to search, filter by price and category, and fetch real-time product data via Axios.",
+    links: {
+      site: "https://e-commerce-rose-xi.vercel.app/",
+      github: "https://github.com/seifmostafa78/E-commerce",
+    },
+  },
+  {
+    img: project5,
     title: "Movie App",
     description:
-      "The React Movie App uses Axios for efficient API calls to fetch movie data and Redux Toolkit for seamless state management, ensuring a fast and organized user experience.",
+      "The React Movie App uses Axios for efficient API calls to fetch movie data and Redux Toolkit for seamless state management.",
     links: {
       site: "https://rtk-movie-app-mu.vercel.app/",
       github: "https://github.com/seifmostafa78/React-RTK-Movie-App",
     },
   },
   {
-    img: project5,
+    img: project6,
     title: "Amazon-Clone",
     description:
-      "This Amazon Clone is a React e-commerce app with Firebase authentication, a shopping cart, and Stripe payments. Users can log in, add products, checkout securely, and view orders.",
+      "Amazon Clone is a React e-commerce app with Firebase authentication, a shopping cart, and Stripe payments. Users can log in, add products, checkout securely, and view.",
     links: {
       site: "https://clone-ff829.web.app/",
       github: "https://github.com/seifmostafa78/Amazon-Clone",
