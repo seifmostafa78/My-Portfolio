@@ -8,7 +8,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di";
-import { SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -22,7 +22,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <TypeAnimation
-            sequence={["Front-End Dev", 1000, "React", 1000, "Junior", 1000]}
+            sequence={["Front-End Dev.", 1000, "React", 1000, "Next js", 1000]}
             speed={50}
             repeat={Infinity}
             className="font-bold text-gray-400 text-4xl md:text-5xl italic- mb-4"
@@ -64,7 +64,7 @@ const Hero = () => {
               }}
               onClick={() =>
                 window.open(
-                  "https://mail.google.com/mail/?view=cm&fs=1&to=seifmostafaa01@gmail.com&su=Hello&body=I want to contact you!",
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=seiif.dev@gmail.com&su=Hello&body=I want to contact you!",
                   "_blank"
                 )
               }
@@ -116,8 +116,12 @@ const Hero = () => {
           <DiHtml5 className="text-orange-600 mx-2" />
           <DiCss3 className="text-blue-600 mx-2" />
           <DiJavascript1 className="text-yellow-500 mx-2" />
-          <SiTypescript size={58} className="text-blue-600 mx-2" />
           <DiReact className="text-blue-500 mx-2" />
+          <SiNextdotjs
+          size={58}
+            className="text-black bg-gray-200 p-1 rounded-full mx-2"
+          />
+          <SiTypescript size={56} className="text-blue-600 mx-2" />
           <SiTailwindcss className="text-blue-400 mx-2" />
         </div>
       </motion.div>

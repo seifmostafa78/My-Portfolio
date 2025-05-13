@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50">
-      <div className="max-w-[1300px] mx-auto flex items-center justify-between text-gray-200 text-xl px-4 md:px-12 h-20">
+      <div className="max-w-[1300px] mx-auto flex items-center justify-between text-gray-200 text-xl font-semibold px-4 md:px-12 h-20">
         <a href="#">Seif</a>
         <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
           <li>
