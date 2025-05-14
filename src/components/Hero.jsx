@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di";
 import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -83,7 +84,11 @@ const Hero = () => {
                 <AiOutlineGithub />
               </motion.a>
 
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                href="https://www.linkedin.com/in/seif-mostafa-053834365/"
+                target="_blank"
+              >
                 <AiOutlineLinkedin />
               </motion.a>
 
@@ -118,11 +123,12 @@ const Hero = () => {
           <DiJavascript1 className="text-yellow-500 mx-2" />
           <DiReact className="text-blue-500 mx-2" />
           <SiNextdotjs
-          size={58}
+            size={58}
             className="text-black bg-gray-200 p-1 rounded-full mx-2"
           />
           <SiTypescript size={56} className="text-blue-600 mx-2" />
           <SiTailwindcss className="text-blue-400 mx-2" />
+          <FaGitAlt className="text-red-500 mx-2" />
         </div>
       </motion.div>
 
