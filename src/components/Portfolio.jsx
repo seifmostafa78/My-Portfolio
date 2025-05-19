@@ -9,10 +9,20 @@ import Reveal from "./Reveal";
 
 const projects = [
   {
+    img: project3,
+    title: "Airbnb-Clone-NextJS ",
+    description:
+      "Airbnb clone built with Next.js, featuring dynamic routing, server-side rendering, and responsive UI for browsing, booking, and listing properties.",
+    links: {
+      site: "airbnb-clone-next-js-peach.vercel.app/",
+      github: "https://github.com/seifmostafa78/Airbnb-Clone-NextJS",
+    },
+  },
+  {
     img: project1,
     title: "LinkedIn-Clone",
     description:
-      "React LinkedIn Clone is a modern web app where users can create posts with text, images, or video links, mimicking LinkedIn's functionality. It features user authentication (login/logout).",
+      "React LinkedIn Clone is a modern web app where users can create posts with text, images, or video links, mimicking LinkedIn's functionality. It features user authentication.",
     links: {
       site: "https://linkedin-clone-59e13.web.app/",
       github: "https://github.com/seifmostafa78/React-linkedin-clone",
@@ -26,16 +36,6 @@ const projects = [
     links: {
       site: "https://e-commerce-app-mocha-mu.vercel.app/",
       github: "https://github.com/seifmostafa78/React-E-Commerce",
-    },
-  },
-  {
-    img: project3,
-    title: "Admin-Dashboard",
-    description:
-      "A responsive Admin Dashboard built with React, featuring Light and Dark Mode. It includes interactive components like charts and tables.",
-    links: {
-      site: "https://admin-dashboard-ivory-pi-78.vercel.app/",
-      github: "https://github.com/seifmostafa78/React-Admin-Dashboard",
     },
   },
   {
@@ -72,7 +72,10 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className="max-w-[1000px] mx-auto p-4 md:px-12 md:my-20" id="portfolio">
+    <div
+      className="max-w-[1000px] mx-auto p-4 md:px-12 md:my-20"
+      id="portfolio"
+    >
       <h2 className="text-3xl font-bold text-gray-200 mb-8">Portfolio</h2>
       {projects.map((project, index) => (
         <Reveal>

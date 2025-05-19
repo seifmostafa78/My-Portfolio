@@ -128,7 +128,7 @@ const Hero = () => {
           />
           <SiTypescript size={56} className="text-blue-600 mx-2" />
           <SiTailwindcss className="text-blue-400 mx-2" />
-          <FaGitAlt className="text-red-500 mx-2" />
+          <FaGitAlt className="text-red-500 ml-2" />
         </div>
       </motion.div>
 
