@@ -130,7 +130,6 @@ const Hero = () => {
           <SiTypescript className="text-blue-600" />
           <SiTailwindcss className="text-blue-400" />
           <FaGitAlt className="text-red-500" />
-          <AiOutlineGithub className="text-gray-300" />
         </div>
       </motion.div>
 
